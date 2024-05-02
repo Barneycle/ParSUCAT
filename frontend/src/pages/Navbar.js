@@ -25,7 +25,7 @@ const Navbar = () => {
 
         </div>
 
-        <h1 className='text-3xl font-mono'>PARSUCAT Application Form</h1>
+        <h1 className='text-3xl font-bold'>ParSUCAT Online Application</h1>
 
         <div className='md:hidden' onClick={handleNavToggle}>
 
@@ -42,7 +42,7 @@ const Navbar = () => {
 
             </div>
 
-            <h1 className='text-3xl font-mono'>PARSUCAT Application Form</h1>
+            <h1 className='text-3xl font-bold'>PARSUCAT Application Form</h1>
 
           </div>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
 
             <button
 
-              className='bg-[#387ADF] text-white text-2xl px-11 py-4 rounded-md font-mono uppercase w-full hover:bg-gray-300 hover:text-black transition-colors'
+              className='bg-[#387ADF] text-white text-2xl px-11 py-4 rounded-md font-bold uppercase w-full hover:bg-gray-300 hover:text-black transition-colors'
 
               onClick={() => {
 
@@ -78,7 +78,7 @@ const Navbar = () => {
 
         <button
 
-          className='bg-[#387ADF] text-white text-2xl px-6 py-2 rounded-md font-mono uppercase flex items-center justify-center w-full hover:bg-gray-300 hover:text-black transition-colors'
+          className='bg-[#387ADF] text-white text-2xl px-6 py-2 rounded-md font-bold uppercase flex items-center justify-center w-full hover:bg-gray-300 hover:text-black transition-colors'
           onClick={() => {
 
             console.log('Get Started clicked');

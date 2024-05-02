@@ -1,16 +1,12 @@
-import React from "react";
-import Navbar from "./pages/Navbar";
-import Welcome from "./pages/Welcome";
+import React from 'react';
+import AnimatedRoutes from './AnimatedRoutes';
 
-function App() {
+export default function App() {
+
   return (
-    <div>
-      
-      <Navbar />
-      <Welcome />
 
-    </div>
+    <AnimatedRoutes />
+
   );
-}
 
-export default App;
+}

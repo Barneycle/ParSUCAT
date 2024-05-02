@@ -7,3 +7,10 @@ body {
   background-color: #fff;
 
 }
+
+form {
+
+  max-height: 80vh;
+  overflow-y: auto;
+  
+}
