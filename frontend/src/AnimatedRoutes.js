@@ -4,7 +4,9 @@ import Navbar from './pages/Navbar';
 import Hero from './pages/Hero';
 import Cards from './pages/Cards';
 import Programs from './pages/Programs';
+import Form from './pages/Form';
 import { AnimatePresence } from 'framer-motion';
+import Freshmen from './pages/Freshmen';
 
 function AnimatedRoutes() {
 
@@ -21,6 +23,10 @@ function AnimatedRoutes() {
         <Route path="/" element={<div> <Navbar /> <Hero /> <Cards /> </div>} />
 
         <Route path="/programs" element={<div> <Navbar /> <Programs /> </div>} />
+
+        <Route path="/freshmen" element={<div> <Freshmen /> </div>} />
+
+        <Route path="/forms" element={<div> <Form /> </div>} />
         
       </Routes>
 

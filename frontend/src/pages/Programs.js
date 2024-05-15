@@ -145,7 +145,9 @@ const programData = [
       "Bachelor of Science in Sanitary Engineering**",
       "Bachelor of Engineering Technology Major in Electrical Engineering Technology",
       "Bachelor of Engineering Technology in Mechanical Technology Major in Automotive Technology",
-      "Bachelor of Engineering Technology in Mechanical Technology Major in Refrigeration and Air-conditioning Technology"
+      "Bachelor of Engineering Technology in Mechanical Technology Major in Refrigeration and Air-conditioning Technology",
+      "Bachelor of Science in Information Technology",
+      "Bachelor of Science in Computer Science"
     ]
 
   },
